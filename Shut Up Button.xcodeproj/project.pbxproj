@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFFEC8332592D16A00CCEDE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFEC8322592D16A00CCEDE4 /* AppDelegate.swift */; };
+		FFFEC8352592D16A00CCEDE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFEC8342592D16A00CCEDE4 /* SceneDelegate.swift */; };
+		FFFEC8372592D16A00CCEDE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFEC8362592D16A00CCEDE4 /* ContentView.swift */; };
+		FFFEC8392592D16C00CCEDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFEC8382592D16C00CCEDE4 /* Assets.xcassets */; };
+		FFFEC83C2592D16C00CCEDE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFEC83B2592D16C00CCEDE4 /* Preview Assets.xcassets */; };
+		FFFEC83F2592D16C00CCEDE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFFEC83D2592D16C00CCEDE4 /* LaunchScreen.storyboard */; };
+		FFFEC84A2592D16C00CCEDE4 /* Shut_Up_ButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFEC8492592D16C00CCEDE4 /* Shut_Up_ButtonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFFEC8462592D16C00CCEDE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFEC8272592D16A00CCEDE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFEC82E2592D16A00CCEDE4;
+			remoteInfo = "Shut Up Button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFFEC82F2592D16A00CCEDE4 /* Shut Up Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shut Up Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFEC8322592D16A00CCEDE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFFEC8342592D16A00CCEDE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFFEC8362592D16A00CCEDE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFFEC8382592D16C00CCEDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFFEC83B2592D16C00CCEDE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFFEC83E2592D16C00CCEDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFFEC8402592D16C00CCEDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFEC8452592D16C00CCEDE4 /* Shut Up ButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shut Up ButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFEC8492592D16C00CCEDE4 /* Shut_Up_ButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shut_Up_ButtonTests.swift; sourceTree = "<group>"; };
+		FFFEC84B2592D16C00CCEDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFFEC82C2592D16A00CCEDE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFEC8422592D16C00CCEDE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFFEC8262592D16A00CCEDE4 = {
+			isa = PBXGroup;
+			children = (
+				FFFEC8312592D16A00CCEDE4 /* Shut Up Button */,
+				FFFEC8482592D16C00CCEDE4 /* Shut Up ButtonTests */,
+				FFFEC8302592D16A00CCEDE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFEC8302592D16A00CCEDE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFEC82F2592D16A00CCEDE4 /* Shut Up Button.app */,
+				FFFEC8452592D16C00CCEDE4 /* Shut Up ButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFEC8312592D16A00CCEDE4 /* Shut Up Button */ = {
+			isa = PBXGroup;
+			children = (
+				FFFEC8322592D16A00CCEDE4 /* AppDelegate.swift */,
+				FFFEC8342592D16A00CCEDE4 /* SceneDelegate.swift */,
+				FFFEC8362592D16A00CCEDE4 /* ContentView.swift */,
+				FFFEC8382592D16C00CCEDE4 /* Assets.xcassets */,
+				FFFEC83D2592D16C00CCEDE4 /* LaunchScreen.storyboard */,
+				FFFEC8402592D16C00CCEDE4 /* Info.plist */,
+				FFFEC83A2592D16C00CCEDE4 /* Preview Content */,
+			);
+			path = "Shut Up Button";
+			sourceTree = "<group>";
+		};
+		FFFEC83A2592D16C00CCEDE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFFEC83B2592D16C00CCEDE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFFEC8482592D16C00CCEDE4 /* Shut Up ButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFFEC8492592D16C00CCEDE4 /* Shut_Up_ButtonTests.swift */,
+				FFFEC84B2592D16C00CCEDE4 /* Info.plist */,
+			);
+			path = "Shut Up ButtonTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFFEC82E2592D16A00CCEDE4 /* Shut Up Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFEC84E2592D16C00CCEDE4 /* Build configuration list for PBXNativeTarget "Shut Up Button" */;
+			buildPhases = (
+				FFFEC82B2592D16A00CCEDE4 /* Sources */,
+				FFFEC82C2592D16A00CCEDE4 /* Frameworks */,
+				FFFEC82D2592D16A00CCEDE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shut Up Button";
+			productName = "Shut Up Button";
+			productReference = FFFEC82F2592D16A00CCEDE4 /* Shut Up Button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFFEC8442592D16C00CCEDE4 /* Shut Up ButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFEC8512592D16C00CCEDE4 /* Build configuration list for PBXNativeTarget "Shut Up ButtonTests" */;
+			buildPhases = (
+				FFFEC8412592D16C00CCEDE4 /* Sources */,
+				FFFEC8422592D16C00CCEDE4 /* Frameworks */,
+				FFFEC8432592D16C00CCEDE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFFEC8472592D16C00CCEDE4 /* PBXTargetDependency */,
+			);
+			name = "Shut Up ButtonTests";
+			productName = "Shut Up ButtonTests";
+			productReference = FFFEC8452592D16C00CCEDE4 /* Shut Up ButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFEC8272592D16A00CCEDE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Andrew Doepke";
+				TargetAttributes = {
+					FFFEC82E2592D16A00CCEDE4 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					FFFEC8442592D16C00CCEDE4 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = FFFEC82E2592D16A00CCEDE4;
+					};
+				};
+			};
+			buildConfigurationList = FFFEC82A2592D16A00CCEDE4 /* Build configuration list for PBXProject "Shut Up Button" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFFEC8262592D16A00CCEDE4;
+			productRefGroup = FFFEC8302592D16A00CCEDE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFEC82E2592D16A00CCEDE4 /* Shut Up Button */,
+				FFFEC8442592D16C00CCEDE4 /* Shut Up ButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFFEC82D2592D16A00CCEDE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFEC83F2592D16C00CCEDE4 /* LaunchScreen.storyboard in Resources */,
+				FFFEC83C2592D16C00CCEDE4 /* Preview Assets.xcassets in Resources */,
+				FFFEC8392592D16C00CCEDE4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFEC8432592D16C00CCEDE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFFEC82B2592D16A00CCEDE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFEC8332592D16A00CCEDE4 /* AppDelegate.swift in Sources */,
+				FFFEC8352592D16A00CCEDE4 /* SceneDelegate.swift in Sources */,
+				FFFEC8372592D16A00CCEDE4 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFEC8412592D16C00CCEDE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFEC84A2592D16C00CCEDE4 /* Shut_Up_ButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFFEC8472592D16C00CCEDE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFEC82E2592D16A00CCEDE4 /* Shut Up Button */;
+			targetProxy = FFFEC8462592D16C00CCEDE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFFEC83D2592D16C00CCEDE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFEC83E2592D16C00CCEDE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFFEC84C2592D16C00CCEDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFFEC84D2592D16C00CCEDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFFEC84F2592D16C00CCEDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Shut Up Button/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Shut Up Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluetuki.Shut-Up-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFFEC8502592D16C00CCEDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Shut Up Button/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Shut Up Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluetuki.Shut-Up-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFFEC8522592D16C00CCEDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shut Up ButtonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluetuki.Shut-Up-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shut Up Button.app/Shut Up Button";
+			};
+			name = Debug;
+		};
+		FFFEC8532592D16C00CCEDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shut Up ButtonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluetuki.Shut-Up-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shut Up Button.app/Shut Up Button";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFEC82A2592D16A00CCEDE4 /* Build configuration list for PBXProject "Shut Up Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFEC84C2592D16C00CCEDE4 /* Debug */,
+				FFFEC84D2592D16C00CCEDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFEC84E2592D16C00CCEDE4 /* Build configuration list for PBXNativeTarget "Shut Up Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFEC84F2592D16C00CCEDE4 /* Debug */,
+				FFFEC8502592D16C00CCEDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFEC8512592D16C00CCEDE4 /* Build configuration list for PBXNativeTarget "Shut Up ButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFEC8522592D16C00CCEDE4 /* Debug */,
+				FFFEC8532592D16C00CCEDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFEC8272592D16A00CCEDE4 /* Project object */;
+}
